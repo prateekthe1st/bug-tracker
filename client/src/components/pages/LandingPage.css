@@ -1,0 +1,15 @@
+button {
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  background-color: cyan;
+  cursor: pointer;
+}

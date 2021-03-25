@@ -1,0 +1,41 @@
+Codes and their corresponding meaning:
+
+101: Return to Landing Page
+	-> Due to the request not having any login token in cookies.
+102: Return to login page
+	-> Due to request token being invalid or expired.
+103: Redirec to dashboard
+	-> The client is associated with a user and redirected to the dashboard
+
+301: Login successfull
+302: Password incorrect
+303: Username not found
+
+700: User Created
+701: Username Taken
+704: Passwords are not the same
+705: Username is null
+706: Password is null
+707: First Name is null
+708: Last Name is null
+
+802: Not on a team. You have to join or create one.
+801: You are on a team. Display team code that is clickable to enter the /dashboard/tracker route
+
+900: Team found
+901: No team found with that code
+905: Successfully joined the team with join code
+910: Successfully created team
+915: Internal Server Error creating team
+
+1001: Team found. Bugs sent.
+1004: Team no longer found
+
+// Still need to make sure that you only have access to features when you are logged in with a valid account
+	-> Dashboard
+	-> Team Creation (when not in a team)
+	-> Team Jion (when not in a team)
+	-> View Tracker (when in a valid team)
+
+
+
